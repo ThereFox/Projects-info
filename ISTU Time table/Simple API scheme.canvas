@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"745498b0cdf53daa","type":"text","text":"Outer System","x":-260,"y":-640,"width":250,"height":60},
+		{"id":"4b72bfb2b35e6c40","type":"text","text":"IAuthorisationTokenChecker\n- GetInfoFromToken\n- RegenerateToken\n- GenerateToken","x":-280,"y":-540,"width":290,"height":160},
+		{"id":"e6121638feb41a56","type":"text","text":"ISTU TIME Table\n","x":-135,"y":-240,"width":540,"height":580},
+		{"id":"86abf7552e381eaa","type":"text","text":"AuthCheckService","x":-115,"y":-170,"width":195,"height":310},
+		{"id":"28c73cf8841140fb","type":"text","text":"User","x":-720,"y":-210,"width":280,"height":340},
+		{"id":"1b806dd4b4c5c71e","type":"text","text":"Headers\n- AuthToken","x":-705,"y":-120,"width":250,"height":120},
+		{"id":"1e8a8ed283ea4898","type":"text","text":"Read-only cookey\n- Refresh token","x":-705,"y":15,"width":250,"height":100},
+		{"id":"403a66cf800100dd","type":"text","text":"? Регистрация","x":-115,"y":160,"width":475,"height":60},
+		{"id":"0c79986b91308866","type":"text","text":"Авторизация","x":-115,"y":240,"width":475,"height":60},
+		{"id":"c75154b71359181a","type":"text","text":"...","x":123,"y":-170,"width":250,"height":300},
+		{"id":"34b61f9fda6af7c7","type":"text","text":"API","x":-330,"y":820,"width":250,"height":60},
+		{"id":"481cb527272c2d60","type":"text","text":"DataBase","x":860,"y":820,"width":250,"height":60},
+		{"id":"7aa91e0160384732","type":"text","text":"Persistense (DAL)","x":405,"y":820,"width":250,"height":60},
+		{"id":"df599b7790851fc8","type":"text","text":"Application","x":30,"y":820,"width":250,"height":60},
+		{"id":"f0d0c6af5c13f4ea","type":"text","text":"Tests","x":155,"y":1140,"width":250,"height":60},
+		{"id":"acb8e573ffbc237b","type":"text","text":"Infrastructure.Authorise","x":-500,"y":940,"width":250,"height":60},
+		{"id":"13febeb798017391","type":"text","text":"Infrastructure (GraphQL)","x":-500,"y":700,"width":250,"height":60},
+		{"id":"b7e393bd265f7f12","type":"text","text":"Domain.Entitys)","x":110,"y":670,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"7b2375c739c0bf0b","fromNode":"86abf7552e381eaa","fromSide":"right","toNode":"c75154b71359181a","toSide":"left"},
+		{"id":"7201323ce70eff19","fromNode":"86abf7552e381eaa","fromSide":"right","toNode":"c75154b71359181a","toSide":"left"},
+		{"id":"119a561ee3d52e29","fromNode":"7aa91e0160384732","fromSide":"right","toNode":"481cb527272c2d60","toSide":"left"},
+		{"id":"1d91d4bf0e89ce46","fromNode":"34b61f9fda6af7c7","fromSide":"top","toNode":"13febeb798017391","toSide":"bottom"},
+		{"id":"1c75e5bc89432aa2","fromNode":"34b61f9fda6af7c7","fromSide":"bottom","toNode":"acb8e573ffbc237b","toSide":"top"},
+		{"id":"0f9363749a478022","fromNode":"34b61f9fda6af7c7","fromSide":"right","toNode":"df599b7790851fc8","toSide":"left"},
+		{"id":"9d1addfbe283ddab","fromNode":"7aa91e0160384732","fromSide":"left","toNode":"df599b7790851fc8","toSide":"right"},
+		{"id":"3931a9e52c7593ff","fromNode":"df599b7790851fc8","fromSide":"top","toNode":"b7e393bd265f7f12","toSide":"bottom"},
+		{"id":"13821a4d13989f7c","fromNode":"34b61f9fda6af7c7","fromSide":"right","toNode":"b7e393bd265f7f12","toSide":"left"},
+		{"id":"e6b4cb1bc928baf4","fromNode":"7aa91e0160384732","fromSide":"top","toNode":"b7e393bd265f7f12","toSide":"right"}
+	]
+}
